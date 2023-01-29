@@ -1,0 +1,23 @@
+.location_icon {
+  font-size: 2rem;
+  color: red;
+}
+
+.loading_icon svg {
+  width: 12rem;
+  color: rgb(0, 255, 55);
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  animation: rotate 2s linear infinite;
+}
+@keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

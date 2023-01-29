@@ -3,9 +3,10 @@ export interface Props {
 	title: string;
 	body: string;
 	href: string;
+	opo?: any
 }
 
-const { href, title, body } = Astro.props;
+const { href, title, body, opo } = Astro.props;
 ---
 
 <li class="link-card">
@@ -16,6 +17,7 @@ const { href, title, body } = Astro.props;
 		</h2>
 		<p>
 			{body}
+			{opo?.kL}
 		</p>
 	</a>
 </li>
